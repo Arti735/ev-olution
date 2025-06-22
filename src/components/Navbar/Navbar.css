@@ -1,0 +1,64 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px;
+    color: white;
+
+}
+.nav-logo{
+    font-family: Outfit;
+    font-size: 42px;
+    font-weight: 500px;
+}
+
+/* .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    list-style: none;
+    font-size: 18px;
+    gap: 90;
+} */
+
+.nav-menu {
+  display: flex;
+  justify-content: center; /* Change to center items */
+  align-items: center;
+  list-style: none;
+  font-size: 18px;
+  gap: 40px; /* Add unit */
+  padding: 20px;
+}
+
+.nav-menu li {
+  margin: 0;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #ccc;
+}
+
+.nav-menu .contact-btn {
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;   
+}
+
+
+.nav-contact{
+    border-radius: 50px;
+    padding: 10px 38px;
+    background: #fff;
+    color: #262626;
+}
